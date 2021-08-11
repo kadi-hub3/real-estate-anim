@@ -1,12 +1,19 @@
 import React from "react";
-import { Nav, Menu, MenuLinks, Logo, NavButton, MenuBars } from "./Navbar.styles";
+import {
+  Nav,
+  Menu,
+  MenuLinks,
+  Logo,
+  NavButton,
+  MenuBars,
+} from "./Navbar.styles";
 import { menuData } from "../../data/MenuData";
 import { Button } from "../Button";
 
 const Navbar = () => {
   return (
     <Nav>
-      <Logo>ELIXRR</Logo>
+      <Logo to="/">ELIXRR</Logo>
       <Menu>
         {menuData.map((link, index) => (
           <MenuLinks to={link.link} key={index}>

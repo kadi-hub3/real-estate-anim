@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   position: fixed;
   padding: 1rem 2rem;
   width: 100%;
-  background-color: gray;
+  z-index: 10;
 `;
 
 const NavLink = css`
