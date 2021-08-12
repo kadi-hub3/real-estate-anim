@@ -10,7 +10,7 @@ import {
 import { menuData } from "../../data/MenuData";
 import { Button } from "../Button";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <Nav>
       <Logo to="/">ELIXRR</Logo>
@@ -21,7 +21,7 @@ const Navbar = () => {
           </MenuLinks>
         ))}
       </Menu>
-      <MenuBars />
+      <MenuBars onClick={toggle} />
       <NavButton>
         <Button to="/contact">Contact Us</Button>
       </NavButton>
