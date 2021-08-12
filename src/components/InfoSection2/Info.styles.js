@@ -22,10 +22,6 @@ export const ColumnLeft = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 768px) {
-    order: ${({ reverse }) => (reverse ? "1" : "2")};
-  }
-
   img {
     width: 100%;
     height: 100%;
@@ -44,6 +40,10 @@ export const ColumnRight = styled.div`
   line-height: 1.4;
   padding: 1rem 2rem;
   order: ${({ reverse }) => (reverse ? "2" : "1")};
+
+  @media screen and (max-width: 768px) {
+    order: ${({ reverse }) => (reverse ? "1" : "2")};
+  }
 
   h1 {
     margin-bottom: 1rem;

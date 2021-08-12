@@ -21,6 +21,9 @@ const NavLink = css`
   cursor: pointer;
   text-decoration: none;
   text-transform: capitalize;
+  &:hover {
+    color: #000d1a;
+  }
 `;
 export const Logo = styled(Link)`
   ${NavLink}

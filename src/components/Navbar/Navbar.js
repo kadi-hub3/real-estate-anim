@@ -23,7 +23,9 @@ const Navbar = ({ toggle }) => {
       </Menu>
       <MenuBars onClick={toggle} />
       <NavButton>
-        <Button to="/contact">Contact Us</Button>
+        <Button primary="true" to="/contact">
+          Contact Us
+        </Button>
       </NavButton>
     </Nav>
   );

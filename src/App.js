@@ -4,6 +4,8 @@ import { SliderData } from "./data/SliderData";
 import Navbar from "./components/Navbar/Navbar";
 import HeroSection from "./components/HeroSection/Hero";
 import InfoSection from "./components/InfoSection/Info";
+import HomesSection from "./components/HomesSection/HomeSection";
+import InteriorSection from "./components/InteriorSection/InteriorSection";
 import InfoSection2 from "./components/InfoSection2/Info";
 import Dropdown from "./components/Dropdown/Dropdown";
 import Footer from "./components/Footer/Footer";
@@ -21,6 +23,8 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <HeroSection slides={SliderData} />
       <InfoSection {...InfoData} />
+      <HomesSection />
+      <InteriorSection {...InfoData} />
       <InfoSection2 {...InfoData2} />
       <Footer />
     </>

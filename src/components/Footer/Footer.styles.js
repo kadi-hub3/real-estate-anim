@@ -8,7 +8,7 @@ import {
 
 export const Container = styled.footer`
   width: 100%;
-  padding: 4rem 0;
+  padding: 4rem 2rem;
   color: #fff;
   background: #000d1a;
 `;
@@ -28,10 +28,9 @@ export const FooterLeft = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 4rem;
 
   h1 {
-    font-size: 4rem;
+    font-size: clamp(2.5rem, 6vw, 4rem);
     padding: 2rem 0;
   }
 `;
@@ -59,11 +58,17 @@ export const InIcon = styled(FaLinkedinIn)`
 
 export const FooterRight = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
   ul {
     list-style: none;
+    padding: 1rem;
 
     li {
       padding: 0.3rem;
