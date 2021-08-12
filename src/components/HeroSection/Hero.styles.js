@@ -1,6 +1,6 @@
 import styled, { css } from "styled-components/macro";
-import { IoMdArrowRoundForward } from "react-icons/io";
 import { IoArrowForward, IoArrowBack } from "react-icons/io5";
+
 export const HeroSection = styled.section`
   height: 100vh;
   max-height: 1100px;
@@ -100,7 +100,7 @@ const arrowButtons = css`
     transform: scale(1.05);
   }
 `;
-export const Arrow = styled(IoMdArrowRoundForward)``;
+export const Arrow = styled(IoArrowForward)``;
 export const SliderArrows = styled.div`
   position: absolute;
   bottom: 50px;

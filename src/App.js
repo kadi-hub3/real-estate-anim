@@ -2,9 +2,12 @@ import React, { useState } from "react";
 import GlobalStyle from "./globalStyles";
 import { SliderData } from "./data/SliderData";
 import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
+import HeroSection from "./components/HeroSection/Hero";
+import InfoSection from "./components/InfoSection/Info";
+import InfoSection2 from "./components/InfoSection2/Info";
 import Dropdown from "./components/Dropdown/Dropdown";
-
+import Footer from "./components/Footer/Footer";
+import { InfoData, InfoData2 } from "./data/InfoData";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,7 +19,10 @@ function App() {
       <GlobalStyle />
       <Navbar toggle={toggle} />
       <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Hero slides={SliderData} />
+      <HeroSection slides={SliderData} />
+      <InfoSection {...InfoData} />
+      <InfoSection2 {...InfoData2} />
+      <Footer />
     </>
   );
 }

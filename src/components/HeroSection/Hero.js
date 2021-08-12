@@ -12,7 +12,6 @@ import {
   NextArrow,
 } from "./Hero.styles";
 import { Button } from "../Button";
-import { IoMdArrowRoundForward } from "react-icons/io";
 
 const Hero = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -68,9 +67,7 @@ const Hero = ({ slides }) => {
                         max-width: 160px;
                       `}
                     >
-                      {slide.label}
-                      <Arrow />
-                      <IoMdArrowRoundForward />
+                      {slide.label} <Arrow />
                     </Button>
                   </HeroContent>
                 </HeroSlider>

@@ -28,7 +28,7 @@ const Dropdown = ({ isOpen, toggle }) => {
           })}
         </DropdownMenu>
         <BtnWrap>
-          <Button primary="true" big="true" to="/contact">
+          <Button big="true" primary="true" to="/contact">
             Contact Us
           </Button>
         </BtnWrap>
