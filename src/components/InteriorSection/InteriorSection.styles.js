@@ -9,7 +9,7 @@ export const Section = styled.section`
 export const Container = styled.div`
   padding: 3rem calc((100vw-1300px) / 2);
   display: grid;
-  grid-template-columns: 1.5fr 1.2fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 800px;
   place-items: center;
 
@@ -24,8 +24,10 @@ export const ColumnLeft = styled.div`
   flex-direction: column;
   line-height: 1.4;
   padding: 1rem 2rem;
+  padding-right: 4rem;
   background: #fff;
-  height: 40vh;
+  height: 60%;
+  margin-right: -5rem;
   order: ${({ reverse }) => (reverse ? "2" : "1")};
 
   h1 {
@@ -35,6 +37,10 @@ export const ColumnLeft = styled.div`
 
   p {
     margin-bottom: 2rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-right: 0;
   }
 `;
 export const ColumnRight = styled.div`

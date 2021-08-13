@@ -24,3 +24,15 @@ export const InfoData2 = {
   reverse: true,
   delay: 300,
 };
+
+export const InfoData3 = {
+  heading: "Stunning Interior",
+  paragraphOne:
+    "Nulla eu convallis mauris, et ultrices erat. Fusce scelerisque condimentum ipsum, a ultrices lectus tempor sit amet. Nullam tristique lorem at imperdiet iaculis.",
+  paragraphTwo:
+    "Nulla eu convallis mauris, Nullam tristique lorem at imperdiet iaculis.",
+  buttonLabel: "View Homes",
+  image: imageTwo,
+  reverse: true,
+  delay: 300,
+};

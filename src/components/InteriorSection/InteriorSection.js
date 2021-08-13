@@ -22,7 +22,11 @@ const InteriorSection = ({
           <h1>{heading}</h1>
           <p>{paragraphOne}</p>
           <p>{paragraphTwo}</p>
-          <Button primary="true" to="/homes">
+          <Button
+            primary="true"
+            style={{ background: "#CD853F", color: "#000d1a" }}
+            to="/homes"
+          >
             {buttonLabel}
           </Button>
         </ColumnLeft>

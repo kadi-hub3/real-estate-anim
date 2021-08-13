@@ -11,8 +11,21 @@ import { menuData } from "../../data/MenuData";
 import { Button } from "../Button";
 
 const Navbar = ({ toggle }) => {
+  const [nav, setNav] = React.useState(false);
+
+  React.useEffect(() => {
+    const changeBg = () => {
+      if (window.scrollY > 80) {
+        setNav(true);
+      } else {
+        setNav(false);
+      }
+    };
+    window.addEventListener("scroll", changeBg);
+  }, []);
+
   return (
-    <Nav>
+    <Nav style={{ background: nav ? "#CD853F" : "transparent" }}>
       <Logo to="/">ELIXRR</Logo>
       <Menu>
         {menuData.map((link, index) => (

@@ -9,7 +9,7 @@ import InteriorSection from "./components/InteriorSection/InteriorSection";
 import InfoSection2 from "./components/InfoSection2/Info";
 import Dropdown from "./components/Dropdown/Dropdown";
 import Footer from "./components/Footer/Footer";
-import { InfoData, InfoData2 } from "./data/InfoData";
+import { InfoData, InfoData2, InfoData3 } from "./data/InfoData";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,7 +24,7 @@ function App() {
       <HeroSection slides={SliderData} />
       <InfoSection {...InfoData} />
       <HomesSection />
-      <InteriorSection {...InfoData} />
+      <InteriorSection {...InfoData3} />
       <InfoSection2 {...InfoData2} />
       <Footer />
     </>

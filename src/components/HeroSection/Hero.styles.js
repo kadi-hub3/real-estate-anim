@@ -67,6 +67,7 @@ export const HeroContent = styled.div`
   max-width: 1600px;
   width: calc(100%-100px);
   color: #fff;
+  padding-left: 2rem;
 
   h1 {
     font-size: clamp(1rem, 8vw, 2rem);
@@ -100,7 +101,6 @@ const arrowButtons = css`
     transform: scale(1.05);
   }
 `;
-export const Arrow = styled(IoArrowForward)``;
 export const SliderArrows = styled.div`
   position: absolute;
   bottom: 50px;

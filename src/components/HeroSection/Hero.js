@@ -6,12 +6,12 @@ import {
   HeroSlider,
   HeroImage,
   HeroContent,
-  Arrow,
   SliderArrows,
   PrevArrow,
   NextArrow,
 } from "./Hero.styles";
 import { Button } from "../Button";
+import { IoArrowForward } from "react-icons/io5";
 
 const Hero = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -60,14 +60,8 @@ const Hero = ({ slides }) => {
                   <HeroContent>
                     <h1>{slide.title}</h1>
                     <p>{slide.price}</p>
-                    <Button
-                      to={slide.path}
-                      primary="true"
-                      css={`
-                        max-width: 160px;
-                      `}
-                    >
-                      {slide.label} <Arrow />
+                    <Button to={slide.path} primary="true" big="true">
+                      {slide.label} <IoArrowForward />
                     </Button>
                   </HeroContent>
                 </HeroSlider>

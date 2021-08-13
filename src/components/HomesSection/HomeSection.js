@@ -1,6 +1,8 @@
 import React from "react";
 import { Section, Container, Image } from "./HomeSection.styles";
 import { HomesData } from "../../data/HomesData";
+import { Button } from "../Button";
+import { IoArrowForward } from "react-icons/io5";
 
 const HomeSection = () => {
   return (
@@ -11,6 +13,11 @@ const HomeSection = () => {
           return (
             <Image key={index}>
               <img src={item.image} alt="house" />
+              <h4>{item.heading}</h4>
+              <Button to="/homes">
+                View Details
+                <IoArrowForward />
+              </Button>
             </Image>
           );
         })}

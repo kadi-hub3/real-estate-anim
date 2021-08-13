@@ -10,6 +10,12 @@ export const Nav = styled.nav`
   padding: 1rem 2rem;
   width: 100%;
   z-index: 10;
+  .beige {
+    background: #cd853f;
+  }
+  .transparent {
+    background: transparent;
+  }
 `;
 
 const NavLink = css`
