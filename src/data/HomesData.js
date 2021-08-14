@@ -1,5 +1,5 @@
-import imageOne from "../images/exterior1.jpg";
-import imageTwo from "../images/exterior2.jpg";
+import imageOne from "../images/home1.jpg";
+import imageTwo from "../images/house4.jpeg";
 
 export const HomesData = [
   {

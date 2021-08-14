@@ -49,6 +49,7 @@ export const ColumnRight = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 90%;
 
   @media screen and (max-width: 768px) {
     order: ${({ reverse }) => (reverse ? "1" : "2")};

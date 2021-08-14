@@ -87,7 +87,7 @@ const arrowButtons = css`
   width: 50px;
   height: 50px;
   color: #fff;
-  z-index: 10;
+  z-index: 2;
   cursor: pointer;
   background: #000d1a;
   border-radius: 50px;
