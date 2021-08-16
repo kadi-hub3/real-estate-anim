@@ -35,6 +35,7 @@ const NavLink = css`
 export const Logo = styled(Link)`
   ${NavLink}
   font-style: italic;
+  font-weight: bold;
 `;
 export const MenuBars = styled(FaBars)`
   display: none;

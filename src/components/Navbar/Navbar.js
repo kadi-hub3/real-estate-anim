@@ -44,7 +44,7 @@ const Navbar = ({ toggle }) => {
   return (
     <Nav style={{ background: nav ? "#CD853F" : "transparent" }}>
       <Logo to="/" ref={(el) => (logo = el)}>
-        ELIXRR
+        ELIXIR
       </Logo>
       <Menu ref={(el) => (menu = el)}>
         {menuData.map((link, index) => (
