@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router } from "react-router-dom";
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="real-estate-anim">
       <App />
     </Router>
   </React.StrictMode>,

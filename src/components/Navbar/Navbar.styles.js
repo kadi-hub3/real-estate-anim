@@ -9,7 +9,8 @@ export const Nav = styled.nav`
   position: fixed;
   padding: 1rem 2rem;
   width: 100%;
-  z-index: 10;
+  height: 5rem;
+  z-index: 20;
   .beige {
     background: #cd853f;
   }
