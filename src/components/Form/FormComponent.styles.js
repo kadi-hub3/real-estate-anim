@@ -37,11 +37,10 @@ export const TextSection = styled.div`
   padding: 1rem;
   margin: 1rem 0;
   color: #000d1a;
-  background: rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
+  background: transparent;
 
   @media screen and (max-width: 768px) {
-    background: transparent;
   }
   input {
     width: 80%;

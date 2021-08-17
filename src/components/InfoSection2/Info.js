@@ -17,18 +17,17 @@ const Info = ({
   let title = useRef(null);
   let p1 = useRef(null);
   let p2 = useRef(null);
-  let button = useRef(null);
   let img = useRef(null);
 
   useEffect(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: [title, p1, p2, button, img],
+        trigger: [title, p1, p2, img],
         toggleActions: "restart complete pause none",
       },
     });
     tl.from(
-      [title, p1, p2, button],
+      [title, p1, p2],
       1.2,
       { y: 10, opacity: 0, ease: Power3.easeOut, delay: 0.3 },
       0.35,
@@ -57,7 +56,7 @@ const Info = ({
             {paragraphOne}
           </p>
           <p ref={(el) => (p2 = el)}>{paragraphTwo}</p>
-          <Button primary="true" to="/homes" ref={(el) => (button = el)}>
+          <Button primary="true" to="/homes">
             {buttonLabel}
           </Button>
         </ColumnRight>

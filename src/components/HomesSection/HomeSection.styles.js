@@ -48,9 +48,8 @@ export const Image = styled.div`
   }
   &:nth-child(2) {
     margin-top: 10rem;
-    transform: rotate(2deg);
+    transform: rotate(-2deg);
     transition: 0.3s ease-in-out;
-
     &:hover {
       transform: rotate(0);
     }

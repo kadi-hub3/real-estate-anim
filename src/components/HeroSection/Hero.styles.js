@@ -56,6 +56,7 @@ export const HeroImage = styled.img`
   top: 0;
   left: 0;
   width: 100vw;
+  aspect-ratio: auto 1/1;
   height: 100vh;
   object-fit: cover;
 `;
