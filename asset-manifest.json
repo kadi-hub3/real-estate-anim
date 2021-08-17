@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/real-estate-anim/static/js/main.5a619a7f.chunk.js",
-    "main.js.map": "/real-estate-anim/static/js/main.5a619a7f.chunk.js.map",
+    "main.js": "/real-estate-anim/static/js/main.eab318a7.chunk.js",
+    "main.js.map": "/real-estate-anim/static/js/main.eab318a7.chunk.js.map",
     "runtime-main.js": "/real-estate-anim/static/js/runtime-main.98e9de31.js",
     "runtime-main.js.map": "/real-estate-anim/static/js/runtime-main.98e9de31.js.map",
-    "static/js/2.18f9c769.chunk.js": "/real-estate-anim/static/js/2.18f9c769.chunk.js",
-    "static/js/2.18f9c769.chunk.js.map": "/real-estate-anim/static/js/2.18f9c769.chunk.js.map",
+    "static/js/2.c5b55094.chunk.js": "/real-estate-anim/static/js/2.c5b55094.chunk.js",
+    "static/js/2.c5b55094.chunk.js.map": "/real-estate-anim/static/js/2.c5b55094.chunk.js.map",
     "static/js/3.ffd564d2.chunk.js": "/real-estate-anim/static/js/3.ffd564d2.chunk.js",
     "static/js/3.ffd564d2.chunk.js.map": "/real-estate-anim/static/js/3.ffd564d2.chunk.js.map",
     "index.html": "/real-estate-anim/index.html",
-    "static/js/2.18f9c769.chunk.js.LICENSE.txt": "/real-estate-anim/static/js/2.18f9c769.chunk.js.LICENSE.txt",
+    "static/js/2.c5b55094.chunk.js.LICENSE.txt": "/real-estate-anim/static/js/2.c5b55094.chunk.js.LICENSE.txt",
     "static/media/exterior1.a7c7023d.jpg": "/real-estate-anim/static/media/exterior1.a7c7023d.jpg",
     "static/media/home1.723457e8.jpg": "/real-estate-anim/static/media/home1.723457e8.jpg",
     "static/media/home2.b23ebefd.jpg": "/real-estate-anim/static/media/home2.b23ebefd.jpg",
@@ -27,7 +27,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.98e9de31.js",
-    "static/js/2.18f9c769.chunk.js",
-    "static/js/main.5a619a7f.chunk.js"
+    "static/js/2.c5b55094.chunk.js",
+    "static/js/main.eab318a7.chunk.js"
   ]
 }
