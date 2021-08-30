@@ -9,7 +9,7 @@ import {
   InstaIcon,
   InIcon,
   FooterWrapper,
-} from "./Footer.styles";
+} from "./Footer.styles.jsx";
 
 const Footer = () => {
   return (

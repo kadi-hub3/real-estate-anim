@@ -6,7 +6,7 @@ import {
   Logo,
   NavButton,
   MenuBars,
-} from "./Navbar.styles";
+} from "./Navbar.styles.jsx";
 import { menuData } from "../../data/MenuData";
 import { Button } from "../Button";
 
