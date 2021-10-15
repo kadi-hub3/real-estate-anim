@@ -7,17 +7,31 @@ import {
 } from "react-icons/fa";
 
 export const Container = styled.footer`
-  width: 100%;
-  padding: 4rem 2rem;
   color: #fff;
   background: #000d1a;
+`;
+
+
+export const Wrapper = styled.div`
+  display: grid;
+  z-index: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 24px;
+  justify-content: center;
+
+  @media screen and (max-width: 768px) {
+    height: 700px;
+  }
 `;
 
 export const FooterWrapper = styled.div`
   padding: 3rem calc((100vw-1300px) / 2);
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 400px;
+  grid-template-rows: 350px;
 
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr;

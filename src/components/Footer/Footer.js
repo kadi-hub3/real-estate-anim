@@ -9,11 +9,13 @@ import {
   InstaIcon,
   InIcon,
   FooterWrapper,
-} from "./Footer.styles.jsx";
+  Wrapper
+} from "./Footer.styles.js";
 
 const Footer = () => {
   return (
     <Container>
+      <Wrapper>
       <FooterWrapper>
         <FooterLeft>
           <h1>
@@ -42,6 +44,7 @@ const Footer = () => {
           </ul>
         </FooterRight>
       </FooterWrapper>
+     </Wrapper>
     </Container>
   );
 };

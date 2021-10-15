@@ -14,7 +14,7 @@ export const Button = styled(Link)`
   justify-content: center;
   align-items: center;
   padding: ${({ big }) => (big ? "20px 80px" : "14px 44px")};
-  color: ${({ primary }) => (primary ? "#fff" : "#000d1a")};
+  color: ${({ dark }) => (dark ? "#000d1a":"#fff" )};
   font-size: ${({ big }) => (big ? "18px" : "14px")};
 
   &:hover {
